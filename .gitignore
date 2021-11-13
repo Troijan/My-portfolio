@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- img -->
+     <img src="Reynard26.jpeg" width="320" height="200">
+       <!--- end of img -->
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+         <!-- Heading -->
+     <h1> Hi I'm <br> <span>Reynard cayetano<br> </span><span> I'm </span><span>Front end Dev</span></h1>
+         <!-- end of Heading -->
+         <!-- Div -->
+     <div>
+       <a href="index.html"><button>Home</button></a>
+       <a href="About me"><button>About</button></a>
+       <a href="My skills"><button>Skills</button></a>
+       <a href="My Projects"><button>My projects</button></a>
+       <a href="Contact us"><button>Hired me!</button></a>
+     </div>
+         <!-- end Div -->
+         
+         <!-- About -->
+     <h2>About me</h2>
+        <!-- end about -->
+         
+         <!-- paragraph -->
+      <p>
+         <strong>
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+        survived not only five ccenturies
+         </strong>
+      </p>
+        <!-- end paragraph -->
+        <!--  My skills -->
+        <h3>My Skills</h3>
+        <img src="images (8).png" width="70" height="70">
+        <img src="images (14).jpeg" width="70" height="70">
+        <img src="images (9).png" width="70" height="70"> <br>
+        <!-- end My skills -->
+        
+        <!-- My Projects -->
+        <h2> My Projects </h2>
+        <img src="image (14).jpeg" width="270" height="200">
+        <img src="image (15).jpeg" width="270" height="200">
+        <img src="image (16).jpeg" width="270" height="200">
+        <!-- end My Projects -->
+        <h2> <div class="container">
+       <div style="text-align:center">
+       <div class="container">
+          <div style="text-align:center">
+         <h2>Contact Us</h2>
+       <p> <strong> Swing by for a cup of
+       coffee, or leave us a message <string> </p>
+  </div>
+  <div class="row">
+    <div class="column">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Philippine">Philippine</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+  <body>
+   
+    <script src="main.js"></script>
+  </body>
+</html>
